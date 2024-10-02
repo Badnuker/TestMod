@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "testmod",
+	"version": "${version}",
+	"name": "TestMod",
+	"description": "关注Badnuker谢谢喵~",
+	"authors": [
+		"Badnuker"
+	],
+	"contact": {
+		"homepage": "https://badnuker.github.io/",
+		"sources": "https://github.com/Badnuker/TestMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/testmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.badnuker.testmod.TestMod"
+		],
+		"fabric-datagen": [
+			"net.badnuker.testmod.TestModDataGenerator"
+		],
+		"client": [
+			"net.badnuker.testmod.TestModClient"
+		]
+	},
+	"mixins": [
+		"testmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
