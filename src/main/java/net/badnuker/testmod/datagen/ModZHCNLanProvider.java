@@ -16,6 +16,7 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.CRYSTAL, "水晶");
+        translationBuilder.add(ModItems.ENDER_SWORD, "末影剑");
 
         translationBuilder.add(ModBlocks.CRYSTAL_BLOCK, "水晶块");
         translationBuilder.add(ModBlocks.CRYSTAL_ORE, "水晶矿石");

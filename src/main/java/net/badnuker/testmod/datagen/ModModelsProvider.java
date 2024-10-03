@@ -22,6 +22,6 @@ public class ModModelsProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CRYSTAL, Models.GENERATED);
-
+        itemModelGenerator.register(ModItems.ENDER_SWORD, Models.GENERATED);
     }
 }

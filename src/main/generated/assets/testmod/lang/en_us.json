@@ -2,5 +2,6 @@
   "block.testmod.crystal_block": "Crystal Block",
   "block.testmod.crystal_ore": "Crystal Ore",
   "item.testmod.crystal": "Crystal",
+  "item.testmod.ender_sword": "Ender Sword",
   "itemGroup.test_group": "Test Group"
 }

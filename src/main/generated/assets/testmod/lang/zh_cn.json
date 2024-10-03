@@ -2,5 +2,6 @@
   "block.testmod.crystal_block": "水晶块",
   "block.testmod.crystal_ore": "水晶矿石",
   "item.testmod.crystal": "水晶",
+  "item.testmod.ender_sword": "末影剑",
   "itemGroup.test_group": "测试物品"
 }
