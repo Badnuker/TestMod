@@ -16,7 +16,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.CRYSTAL, "Crystal");
-        translationBuilder.add(ModItems.ENDER_SWORD, "Ender Sword");
+        translationBuilder.add(ModItems.ENDER_DAGGER, "Ender Dagger");
 
         translationBuilder.add(ModBlocks.CRYSTAL_BLOCK, "Crystal Block");
         translationBuilder.add(ModBlocks.CRYSTAL_ORE, "Crystal Ore");

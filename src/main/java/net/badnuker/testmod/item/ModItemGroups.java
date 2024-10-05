@@ -17,6 +17,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CRYSTAL);
                         entries.add(ModBlocks.CRYSTAL_BLOCK);
                         entries.add(ModBlocks.CRYSTAL_ORE);
+                        entries.add(ModItems.ENDER_DAGGER);
                     }).build());
 
     public static void registerModItemsGroups() {
