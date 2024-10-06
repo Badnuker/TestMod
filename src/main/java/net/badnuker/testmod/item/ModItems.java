@@ -1,7 +1,7 @@
 package net.badnuker.testmod.item;
 
 import net.badnuker.testmod.TestMod;
-import net.badnuker.testmod.item.custom.EnderDagger;
+import net.badnuker.testmod.item.custom.EnderSword;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,11 +13,11 @@ public class ModItems {
     public static final Item CRYSTAL = registerItems("crystal", new Item(new Item.Settings()));
     public static final Item ENDER_DAGGER = registerItems(
             "ender_dagger",
-            new EnderDagger(new Item.Settings()
+            new EnderSword(new Item.Settings()
                     .rarity(Rarity.EPIC)
                     .maxDamage(16)
-                    .attributeModifiers(EnderDagger.createAttributeModifiers())
-                    .component(DataComponentTypes.TOOL, EnderDagger.createToolComponent()))
+                    .attributeModifiers(EnderSword.createAttributeModifiers())
+                    .component(DataComponentTypes.TOOL, EnderSword.createToolComponent()))
     );
 
     private static Item registerItems(String id, Item item) {
